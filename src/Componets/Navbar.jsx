@@ -12,5 +12,7 @@ const Navbar = () =>{
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    );
-};
+    )
+}
+
+export default Navbar

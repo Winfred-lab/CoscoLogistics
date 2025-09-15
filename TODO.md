@@ -1,0 +1,7 @@
+- [x] Add export default to src/Componets/Navbar.jsx
+- [x] Add export default to src/Componets/Home.jsx
+- [ ] Add export default to src/Componets/About.jsx
+- [ ] Add export default to src/Componets/Network.jsx
+- [ ] Add export default to src/Componets/Contact.jsx
+- [ ] Add export default to src/Componets/Exploring.jsx
+- [ ] Add export default to src/Componets/Footer.jsx

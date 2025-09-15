@@ -1,4 +1,5 @@
 import React from 'react';
+// import ReactDOM from 'react-dom/client';
 import Navbar from './Componets/Navbar';
 import Home from './Componets/Home';
 import About from './Componets/About';
@@ -8,18 +9,18 @@ import Exploring from './Componets/Exploring';
 import Footer from './Componets/Footer';
 
 
-function App() {
+const App = () =>{
   return (
     <div className='App'>
       <Navbar/>
-      <Home/>
+      {/* <Home/>
       <About/>
       <Network/>
       <Contact/>
       <Exploring/>
-      <Footer/>
+      <Footer/> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
