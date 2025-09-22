@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  font-family: poppins, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.Home{
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.Header img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    border-radius: 0 0 30px 30px;
+    /* top: 0;
+    left: 0; */
+    /* z-index: -1; */
+}
+
+.navbar{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin-bottom: 600px;
+
+}
+.navbar .links{
+  list-style: none;
+  display: flex;
+  
+}
+.navbar .links li a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px ;
+  color: white;
+}
+
+.navbar .links li .CTA1{
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.navbar .links li .CTA2{
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.navbar .links li .CTA5{
+    background-color: white;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    
+}
+.navbar .links li .CTA4{
+    margin-left: 270px;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+
+}
+ .navbar .links li .CTA-main{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+
+.content-Number{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 45px;
+    
+}
+.content-Number h1{
+    margin-top: 10px;
+}
+.content-Number p{
+    font-size: 12px;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+.content-text h1{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.solutions{
+    margin-left: 2rem;
+}
+.content-text p{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+.content-text{
+    display: flex;
+    gap: 3.5rem;
+    padding: 2% 4rem;
+}
+.content-text h1{
+    line-height: 1.2;
+}
+.user{
+    display: flex;
+    gap: 1.5rem;
+}
+.review{
+    display: flex;
+    gap: 1.5rem;
+}
+.create{
+    margin-bottom: 1rem;
+}
+.cosco{
+    margin-bottom: 1rem;
+}
+.supplychain{
+    margin-top: 1.2rem;
+}
+.content-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    /* padding: 2% 1rem; */
+}
+.review p{
+    border: 1px solid rgb(117, 114, 114);
+    border-radius: 50px;
+    padding: 4px 12px;
+}

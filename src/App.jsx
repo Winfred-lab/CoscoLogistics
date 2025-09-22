@@ -18,7 +18,6 @@ const App = () =>{
       <Exploring/>
       <Contact/>
       <Footer/>
-      
     </div>
   )
 }
