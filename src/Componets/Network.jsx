@@ -1,12 +1,11 @@
-import React from 'react';
-import './Network.css'
+import React from 'react'
 
 const Network = () => {
   return (
     <div>
       
     </div>
-  );
+  )
 }
 
-export default Network;
+export default Network

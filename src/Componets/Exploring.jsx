@@ -1,12 +1,11 @@
-import React from 'react';
-import './Exploring.css'
+import React from 'react'
 
 const Exploring = () => {
   return (
     <div>
       
     </div>
-  );
+  )
 }
 
-export default Exploring;
+export default Exploring
