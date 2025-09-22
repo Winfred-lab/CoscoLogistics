@@ -1,0 +1,71 @@
+.Exploring{
+    margin-top: 200px;
+    width: 100%;
+    height: 100vh; 
+    padding: 2% 4rem;
+}
+
+.Exporing-content h1{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.Exporing-content span{
+    margin-left: 3rem;
+}
+.Exporing-content {
+    align-items: center;
+}
+.content1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: left;
+}
+.content1 h1{
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.content1 span{
+    margin-right: 1.5rem;
+}
+.smart-img1{
+    width: 100%;
+}
+.smart-img{
+    position: relative;
+}
+.smart-logistics{
+    background-color: white;
+    border-radius: 15px;
+    width: 450px;
+    padding: 45px 25px;
+    position: absolute;
+    top: 43px;
+    left: 43px;
+}
+.smart-logistics h2{
+    margin-bottom: 1rem;
+    font-size: 28px;
+}
+.smart-p{
+    margin-bottom: .8rem;
+    line-height: 28px;
+    font-size: 18px;
+    
+}
+.smart-p-img{
+    line-height: 40px;
+    align-items: center;
+    font-size: 18px;
+}
+.smart-p-img img{
+    width: 20px;
+    margin-right: 1.5rem;
+}
+
+
+
+/* question */
