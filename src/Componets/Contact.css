@@ -93,14 +93,14 @@
 }
 @media (width < 768px){
   .faq-container {
-    margin-top: 800px;
+    margin-top: 00px;
     transition: .4s;
   }
 }
 
 @media (width < 900px){
   .faq-container {
-    margin-top: 700px;
+    margin-top: 800px;
     transition: .4s;
   }
 }

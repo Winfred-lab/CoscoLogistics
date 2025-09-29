@@ -66,9 +66,9 @@
     width: 20px;
     margin-right: 1.5rem;
 }
-@media (width < 768px){
+@media (width > 768px){
     .Exploring{
-        margin-top: 1250px;
+        margin-top: 150px;
         transition: .4s;
     }
     .Exporing-content h1{
@@ -76,21 +76,19 @@
         font-weight: 600;
         margin-bottom: 1.5rem;
     }
-    .content1{
+    /* .content1{
         display: block;
         gap: 100px;
         align-items: center;
         padding: 30px 0;
         justify-content: left;
-    }
+    } */
     .content1 h1{
         font-size: 1.5rem;
         white-space: wrap;
     }
-    .smart-img{
-        /* position: relative; */
-    }
-    .smart-logistics{
+
+    /* .smart-logistics{
         background-color: rgb(255, 255, 255);
         border-radius: 15px;
         width: 95%;
@@ -116,13 +114,12 @@
     }
     .smart-p-img img{
         width: 20px;
-        /* margin-right: 1.5rem; */
-    }
+    } */
 }
 
 @media (width < 900px){
     .Exploring{
-        margin-top: 1000px;
+        margin-top: 1200px;
         transition: .4s;
     }
     .Exporing-content h1{
