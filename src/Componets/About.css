@@ -2,6 +2,7 @@
     margin-top: 700px;
     width: 100%;
     height: 100vh; 
+    transition: .4s;
 }
 
 .about-content{
@@ -41,4 +42,44 @@
 }
 .global{
     margin-top: 1.5rem;
+}
+@media (width < 768px){
+    .About{
+        margin-top: 1750px;
+        width: 100%;
+        height: 100vh; 
+    }
+    .about-content{
+        padding: 3%;
+    }
+    .tailored-content h1{
+        text-align: left;
+    }
+    .fit{
+        margin-left: 0;
+    }
+    .AboutImage1{
+        width: 3rem;
+        /* display: none; */
+    }
+}
+@media (width < 900px){
+    .About{
+        margin-top: 1650px;
+        width: 100%;
+        height: 100vh; 
+    }
+    .about-content{
+        padding: 3%;
+    }
+    .tailored-content h1{
+        text-align: left;
+    }
+    .fit{
+        margin-left: 0;
+    }
+    .AboutImage1{
+        width: 4rem;
+        /* display: none; */
+    }
 }

@@ -13,7 +13,7 @@ const Home = () => {
     <div className="Home">
 
         <div className='Header'>
-            <img src={HomeImage} alt="" />
+            <img className='homeimage' src={HomeImage} alt="" />
             <nav className="navbar">
                 <ul className="links">
                     <li><a href="#home" className='CTA1'>Home</a></li>

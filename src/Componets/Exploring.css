@@ -3,6 +3,7 @@
     width: 100%;
     height: 100vh; 
     padding: 2% 4rem;
+    transition: .4s;
 }
 
 .Exporing-content h1{
@@ -65,7 +66,110 @@
     width: 20px;
     margin-right: 1.5rem;
 }
+@media (width < 768px){
+    .Exploring{
+        margin-top: 1250px;
+        transition: .4s;
+    }
+    .Exporing-content h1{
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    .content1{
+        display: block;
+        gap: 100px;
+        align-items: center;
+        padding: 30px 0;
+        justify-content: left;
+    }
+    .content1 h1{
+        font-size: 1.5rem;
+        white-space: wrap;
+    }
+    .smart-img{
+        /* position: relative; */
+    }
+    .smart-logistics{
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        width: 95%;
+        padding: 20px 20px;
+        position: relative;
+        top: -53px;
+        left: 3px;
+        box-shadow: 2px 2px 8px 2px rgba(207, 204, 204, 0.5);
+    }
+    .smart-logistics h2{
+        margin-bottom: 1rem;
+        font-size: 22px;
+    }
+    .smart-p{
+        margin-bottom: .8rem;
+        line-height: 28px;
+        font-size: 12px;
+    }
+    .smart-p-img{
+        line-height: 40px;
+        align-items: center;
+        font-size: 12px;
+    }
+    .smart-p-img img{
+        width: 20px;
+        /* margin-right: 1.5rem; */
+    }
+}
 
-
-
-/* question */
+@media (width < 900px){
+    .Exploring{
+        margin-top: 1000px;
+        transition: .4s;
+    }
+    .Exporing-content h1{
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    .content1{
+        display: block;
+        gap: 100px;
+        align-items: center;
+        padding: 30px 0;
+        justify-content: left;
+    }
+    .content1 h1{
+        font-size: 1.5rem;
+        white-space: wrap;
+    }
+    .smart-img{
+        /* position: relative; */
+    }
+    .smart-logistics{
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        width: 95%;
+        padding: 20px 20px;
+        position: relative;
+        top: -53px;
+        left: 3px;
+        box-shadow: 2px 2px 8px 2px rgba(207, 204, 204, 0.5);
+    }
+    .smart-logistics h2{
+        margin-bottom: 1rem;
+        font-size: 22px;
+    }
+    .smart-p{
+        margin-bottom: .8rem;
+        line-height: 28px;
+        font-size: 12px;
+    }
+    .smart-p-img{
+        line-height: 40px;
+        align-items: center;
+        font-size: 12px;
+    }
+    .smart-p-img img{
+        width: 20px;
+        /* margin-right: 1.5rem; */
+    }
+}
