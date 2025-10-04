@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     
-      <div className="global-network">
+      <div className="global-network" id='footer'>
         <h1 className="title">
           A Global Network,<br />Built to Deliver Anywhere
         </h1>

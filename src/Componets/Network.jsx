@@ -15,10 +15,10 @@ import NetworkImage0 from '../assets/Capa_1.svg'
 const Network = () => {
   return (
     
-    <div className='Network' id='network'>
+    <div className='Network' id='network' >
         
       <div className='Network-content'>
-        <div className='NetworkImage' style={{ NetworkImage: `url(${NetworkImage})`}}></div>
+        {/* <div className='NetworkImage' style={{ NetworkImage: `url(${NetworkImage})`}}></div> */}
           <h1>A Global Logistics Network <img src={NetworkImage6} alt="" /><br /> <img src={NetworkImage6} alt="" />You Can Rely On</h1>
           <p>Our extensive network spans over 120 countries, ensuring your goods reach <br />their destination- safely, swifty and reliably.</p>
           <button>More info <img src={NetworkImage11} alt="" /></button>

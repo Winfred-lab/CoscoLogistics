@@ -7,12 +7,34 @@ import ExploringImage3 from '../assets/link-01.svg'
 import ExploringImage4 from '../assets/phone-02.svg'
 import ExploringImage5 from '../assets/Rectangle 1.svg'
 
+import ExploringImage6 from '../assets/shippo.png'
+import ExploringImage7 from '../assets/Shipt.png'
+import ExploringImage8 from '../assets/hackerone.png'
+import ExploringImage9 from '../assets/shippable.png'
+import ExploringImage10 from '../assets/Transport_Logistic.png'
+import ExploringImage20 from '../assets/kaggle.png'
+import ExploringImage30 from '../assets/brado.png'
+
 
 const Exploring = () => {
   return (
-    <div className='Exploring' id='Exploring'>
+    <div className="Exploring" id='exploring'>
+      <div className="brand_name">
+          <div className="brand_text">
+            TRUSTED BY
+          </div>
+          <div className="brand_logo">
+            <img src={ExploringImage6} alt="" />
+            <img src={ExploringImage7} alt="" />
+            <img src={ExploringImage8} alt="" />
+            <img src={ExploringImage9} alt="" />
+            <img src={ExploringImage10} alt="" />
+            <img src={ExploringImage20} alt="" />
+            <img src={ExploringImage30} alt="" />
+          </div>
+      </div>
       <div className='Exporing-content'>
-          <h1>Our Milestones <br /><span><img className='ExploringImage5' src={ExploringImage5} alt="" />& Achievements</span></h1>
+          <h1>Our Milestones <br /><span>-& Achievements</span></h1>
       </div>
       <div className="content">
         <div className="contentA">

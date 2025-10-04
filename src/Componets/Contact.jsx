@@ -1,9 +1,10 @@
-import React from "react";
-import "./Contact.css";
+import React from 'react';
+import './Contact.css'
 
-const Faq = () => {
+
+const Contact = () => {
   return (
-    <section className="faq-container">
+    <section className="faq-container" id='contact'>
       <h2 className="faq-title">
         Still have questions? <br /> <span>— We’ve got answers.</span>
       </h2>
@@ -30,6 +31,12 @@ const Faq = () => {
               Does COSCO offer air freight in addition to sea logistics?
             </span>
           </summary>
+          <p className="faq-answer">
+            Yes, COSCO offers air freight in addition to its sea freight
+            services. We provide logistics solutions that include air transport,
+            which is useful for faster delivery of goods or time-sensitive
+            shipments.
+          </p>
         </details>
 
         <details className="faq-item">
@@ -37,6 +44,10 @@ const Faq = () => {
             <span className="faq-id">03</span>
             <span className="faq-question">How can I track my shipment?</span>
           </summary>
+          <p className="faq-answer">
+            You can track your shipment using COSCO’s online tracking system by
+            entering your booking or container number.
+          </p>
         </details>
 
         <details className="faq-item">
@@ -46,6 +57,10 @@ const Faq = () => {
               Is customs clearance included in your service?
             </span>
           </summary>
+          <p className="faq-answer">
+            Yes, customs clearance is part of our service to ensure smooth
+            import and export processes.
+          </p>
         </details>
 
         <details className="faq-item">
@@ -55,6 +70,10 @@ const Faq = () => {
               What are the payment options available for shipping?
             </span>
           </summary>
+          <p className="faq-answer">
+            We accept multiple payment options including bank transfer, credit
+            card, and invoicing depending on your package.
+          </p>
         </details>
       </div>
 
@@ -63,4 +82,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default Contact;

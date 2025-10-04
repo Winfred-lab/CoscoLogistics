@@ -1,5 +1,7 @@
 import React from 'react';
-// import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
+// import {HashRouter as Router, Routes, Route} from "react-router-dom"
+import Hero  from './Componets/Hero';
 import Home from './Componets/Home';
 import About from './Componets/About';
 import Network from './Componets/Network';
@@ -12,12 +14,17 @@ import Footer from './Componets/Footer';
 const App = () =>{
   return (
     <div className='App'>
+   
+      
+      <Hero/>
       <Home/>
       <About/>
       <Network/>
       <Exploring/>
       <Contact/>
       <Footer/>
+     
+     
     </div>
   )
 }

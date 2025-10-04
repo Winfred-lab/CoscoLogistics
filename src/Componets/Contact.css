@@ -4,7 +4,7 @@
   padding: 20px;
   font-family: "Inter", sans-serif;
   color: #111;
-  margin-top: 500px;
+  margin-top: 800px;
   transition: .4s;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .faq-title span {
-  color: #8cc63f; /* green accent */
+  color: #8cc63f; 
 }
 
 .faq-list {
@@ -74,7 +74,14 @@
   content: "−";
   background: #c3ff3f;
 }
-
+.faq-item:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.2);
+}
+.faq-footer:hover {
+  transform: scale(1.05);
+  color: #fff;
+}
 .faq-answer {
   margin-top: 10px;
   font-size: 15px;
@@ -93,14 +100,14 @@
 }
 @media (width < 768px){
   .faq-container {
-    margin-top: 00px;
+    /* margin-top: 00px; */
     transition: .4s;
   }
 }
 
 @media (width < 900px){
   .faq-container {
-    margin-top: 800px;
+    margin-top: 1150px;
     transition: .4s;
   }
 }

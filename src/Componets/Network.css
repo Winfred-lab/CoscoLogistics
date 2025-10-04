@@ -87,7 +87,7 @@ button{
 
 @media (width < 768px){
     .Network{
-        margin-top: 150rem;
+        margin-top: 70rem;
         
         /* align-items: center; */
     }
@@ -111,7 +111,7 @@ button{
 
 @media (width < 900px){
      .Network{
-        margin-top: 98rem;
+        margin-top: 105rem;
     }
     .Network-content1{
         display: grid;

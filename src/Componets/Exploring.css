@@ -68,7 +68,7 @@
 }
 @media (width > 768px){
     .Exploring{
-        margin-top: 150px;
+        /* margin-top: 150px; */
         transition: .4s;
     }
     .Exporing-content h1{
@@ -116,6 +116,74 @@
         width: 20px;
     } */
 }
+.brand_name{
+    padding-block: 4rem;
+    overflow: hidden;
+    /* background-color: white; */
+}
+.brand_text{
+    text-align: center;
+}
+.brand_logo {
+    /* justify-content: space-between; */
+        margin-top: 1rem;
+    align-items: center;
+    display: flex;
+    width: max-content;
+    gap: 8rem;
+    animation: scroll 45s linear infinite;
+}
+.brand_logo img{
+    height: 42px;
+}
+@keyframes scroll {
+    to{
+        transform: translateX(calc(-50% - 4rem));
+    }
+}
+
+
+
+/* Section background */
+.Exploring {
+  background: #f9f9f9;  
+  padding: 60px 50px;
+  border-radius: 20px;
+}
+
+/* Card styling */
+.content1 {
+  background: #fffafa;
+  padding: 30px 40px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(87, 180, 115, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Smooth scale + glow */
+.content1:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(130, 132, 133, 0.25);
+}
+
+
+
+.Exploring h1::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #2d3834;
+  transition: width 0.4s ease;
+  border-radius: 2px;
+}
+
+.Exploring h1:hover::after {
+  width: 100%;
+}
 
 @media (width < 900px){
     .Exploring{
@@ -138,6 +206,14 @@
         font-size: 1.5rem;
         white-space: wrap;
     }
+    .content1 {
+    background: #fffafa;
+    padding: 30px 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(87, 180, 115, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
     .smart-img{
         /* position: relative; */
     }
