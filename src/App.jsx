@@ -8,6 +8,7 @@ import Network from './Componets/Network';
 import Exploring from './Componets/Exploring';
 import Contact from './Componets/Contact';
 import Footer from './Componets/Footer';
+import LiveMap from './Componets/LiveMap';
 
 
 

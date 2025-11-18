@@ -12,6 +12,12 @@
     font-size: 1.2rem;
 
 }
+.content-image img{
+    border-radius: 30px;
+}
+/* .content-image img{
+    border-radius: 30px;
+} */
 .about-content p{
     margin-bottom: 6rem;
 }
@@ -43,6 +49,51 @@
 .global{
     margin-top: 1.5rem;
 }
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.9;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 30px;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text h2{
+    font-weight: 600;
+    white-space: nowrap;
+}
+.text p{
+    font-size: 1.2rem;
+}
+
+
 @media (width < 768px){
     .About{
         /* margin-top: 1750px; */

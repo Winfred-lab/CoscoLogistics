@@ -40,6 +40,7 @@ const Footer = () => {
               </td>
               <td className="stats">60+ logistics nodes</td>
             </tr>
+
             <tr className="highlight-row">
               <td className="region">North Asia</td>
               <td className="description">
@@ -47,6 +48,7 @@ const Footer = () => {
               </td>
               <td className="stats">70+ ports & distribution centers</td>
             </tr>
+            
             <tr>
               <td className="region">Southeast Asia</td>
               <td className="description">

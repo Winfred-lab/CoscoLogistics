@@ -51,6 +51,13 @@
   color: #aaa;
   width: 25%;
 }
+tr:hover{
+  background-color: #a8ff35;
+  color: #000;
+}
+td:hover{
+  color: #000;
+}
 
 hr{
   color: #aaa;

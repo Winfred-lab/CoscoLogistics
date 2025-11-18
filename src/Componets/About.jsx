@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css'
 import AboutImage1 from '../assets/vector 1.png';
-import AboutImage2 from '../assets/image.png';
-import AboutImage3 from '../assets/image (1).png';
-import AboutImage4 from '../assets/Frame 48.png';
+import AboutImage2 from '../assets/ship.jpg';
+import AboutImage3 from '../assets/truck.jpg';
+import AboutImage4 from '../assets/plane.jpg';
 
 const About = () => {
   return (
@@ -29,16 +29,34 @@ const About = () => {
         </div>
 
         <div className='content-image'>
-            <div>
+            <div className='container'>
               <img src={AboutImage2} alt="" width={430}/>
+              <div className="overlay">
+                <div className='text'>
+                  <h2>Ocean Freight</h2>
+                  <p>Full and less than container load across 100+ ports</p>
+                </div>
+              </div>
             </div>
           
-            <div>
+            <div className='container'>
               <img src={AboutImage3} alt="" width={430}/>
+              <div className="overlay" >
+                <div className='text'>
+                  <h2>Inland Transportation</h2>
+                  <p>Modern finest, timely delivery</p>
+                </div>
+              </div>
             </div>
           
-            <div>
+            <div className='container'>
               <img src={AboutImage4} alt="" width={430}/>
+              <div className="overlay">
+                <div className='text'>
+                  <h2>Air Freight</h2>
+                  <p>Fast, Secure and reliable global, air cargo services with priority handing</p>
+                </div>
+              </div>
             </div>
         </div>
       </div>      

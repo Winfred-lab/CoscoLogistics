@@ -57,6 +57,183 @@
     text-decoration: none;
     color: black;
 }
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+/*  Button Style  */
+.main-btn {
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+/* Blue: Get a Quote */
+.quote-btn {
+  background: linear-gradient(135deg, #77b301, #BFFC48);
+}
+
+.quote-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #77b301, #BFFC48);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* Green: Contact Us */
+.contact-btn {
+  background: linear-gradient(135deg, #77b301, #BFFC48);
+}
+
+.contact-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #77b301, #BFFC48);
+  /* background: linear-gradient(135deg, #009c88, #00a8a8); */
+  box-shadow: 0 5px 15px rgba(0, 200, 150, 0.3);
+}
+
+/*  Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.4s ease forwards;
+  z-index: 1000;
+}
+
+/*  Modal Box */
+.modal {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: slideUp 0.5s ease forwards;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  border: none;
+  background: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+.close-btn:hover {
+  color: black;
+  transform: rotate(90deg);
+}
+
+/*  Form Styles  */
+.form-title {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-body input,
+.form-body select,
+.form-body textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.form-body input:focus,
+.form-body select:focus,
+.form-body textarea:focus {
+  border-color: #BFFC48;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+.animated-btn {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.6rem;
+  background: linear-gradient(135deg, #77b301, #BFFC48);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.animated-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #77b301, #BFFC48);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.25);
+}
+
+/*  Feedback  */
+.error {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.success {
+  color: #28a745;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*  Animations  */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+
+
 @media (width < 900px){
     .hero{
         position: absolute;
