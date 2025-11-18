@@ -25,12 +25,6 @@ const Home = () => {
             </nav>
         </div>
         
-        {/* <section className="hero">
-            <h1>Fast, Reliable, and Affordable Logistics Solutions</h1>
-            <p>We make shipping and delivery seamless — from warehousing to last-mile delivery, trust us to move your business forward.</p>
-            <button className="cta">Tracking ID</button>
-            <button className="cta ct">Get Quote</button>
-        </section> */}
 
         <div className="content-Number">
             <div>
